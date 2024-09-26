@@ -7,7 +7,7 @@ export const Footer = () => {
                 <div className="flex flex-wrap justify-between mt-10">
                     <div className="w-full md:w-1/3 mb-6 md:mb-0">
                         <h3 className="text-xl font-bold mb-4">OSIS SMK Bhakti Wiayata Kediri</h3>
-                        <p>Jl. Pendidikan No. 123, Kota Anda, 12345</p>
+                        <p>Jl. KH Wachid Hasyim No.65, Bandar Lor, Kec. Mojoroto, Kota Kediri, Jawa Timur (64114)</p>
                     </div>
                     <div className="w-full md:w-1/3 mb-6 md:mb-0">
                         <h3 className="text-xl font-bold mb-4">Kontak</h3>
@@ -23,6 +23,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <img className="h-32 w-auto" src="/assets/logo.png" alt="OSS Bhakta" />
                 <div className="border-t border-gray-700 mt-8 pt-8 text-center">
                     <p className='underline'>&copy; 2024 OSIS SMK Bhakti Wiyata. Hak Cipta Dilindungi.</p>
                 </div>

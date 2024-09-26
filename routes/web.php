@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnggotaController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+// UMUM
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/struktural', [HomeController::class, 'struktural'])->name('struktural');
+
+
+// ADMIN
+Route::resource('anggota', AnggotaController::class);

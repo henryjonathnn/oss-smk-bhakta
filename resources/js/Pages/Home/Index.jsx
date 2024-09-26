@@ -5,8 +5,8 @@ import { Footer } from '../../Layouts/Footer';
 import { Link } from '@inertiajs/inertia-react';
 
 // Lazy load components
-const EventCard = lazy(() => import('../Components/EventCard'));
-const StrukturalCard = lazy(() => import('../Components/StrukturalCard'));
+const EventCard = lazy(() => import('../../Components/EventCard'));
+const StrukturalCard = lazy(() => import('../../Components/StrukturalCard'));
 
 const Index = () => {
   return (
