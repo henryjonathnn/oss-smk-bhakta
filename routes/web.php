@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 // UMUM
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/struktural', [HomeController::class, 'struktural'])->name('struktural');
