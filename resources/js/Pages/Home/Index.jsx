@@ -2,12 +2,13 @@ import React from 'react';
 import { Head } from '@inertiajs/react';
 import { Navbar } from '../../Layouts/Navbar';
 import { Footer } from '../../Layouts/Footer';
-import Hero from '../../Components/Hero';
-import AboutSection from '../../Components/AboutSection';
-import StatisticSection from '../../Components/StatisticSection';
-import EventSection from '../../Components/EventSection';
-import FAQSection from '../../Components/FaqSection';
-import SuggestionBoxSection from '../../Components/SuggestionBoxSection';
+import Hero from '../../Components/elements/Hero';
+import AboutSection from '../../Components/Home/AboutSection';
+import StatisticSection from '../../Components/Home/StatisticSection';
+import EventSection from '../../Components/Home/EventSection';
+import FAQSection from '../../Components/Home/FaqSection';
+import SuggestionBoxSection from '../../Components/Home/SuggestionBoxSection';
+import { ChevronRight } from 'lucide-react';
 
 const Index = () => {
   const events = [
@@ -44,7 +45,13 @@ const Index = () => {
         />
         <AboutSection />
         <StatisticSection />
+        <h2 className="text-4xl font-bold text-center mt-20 -mb-10 text-indigo-900">Event Terakhir</h2>
         <EventSection events={events} />
+        <div className="text-center mb-20">
+          <a href="/event" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">
+            Lihat Semua Event <ChevronRight className="w-5 h-5 ml-2" />
+          </a>
+        </div>
         <FAQSection faqs={faqs} />
         <SuggestionBoxSection />
         <Footer />

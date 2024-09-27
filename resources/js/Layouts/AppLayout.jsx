@@ -11,7 +11,7 @@ const AppLayout = ({ children }) => {
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
                 <Link href="/">
-                  <h1 className="text-xl font-bold">Your App Name</h1>
+                  <h1 className="text-lg px-1 pt-1 font-bold">Admin OSS Bhakta</h1>
                 </Link>
               </div>
               <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">

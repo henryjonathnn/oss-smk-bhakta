@@ -6,7 +6,15 @@ import { Link } from '@inertiajs/inertia-react';
 import { Head } from '@inertiajs/react';
 
 
-const StrukturalCard = lazy(() => import('../../Components/StrukturalCard'));
+const StrukturalCard = lazy(() => import('../../Components/modules/StrukturalCard'));
+
+const anggota = [
+  {
+    nama: "M. Revo Furqoni",
+    jabatan: "Ketua OSIS", 
+    image: "/assets/img/struktural/ketos.jpeg"
+  }
+]
 
 const Struktural = () => {
   return (
@@ -20,13 +28,11 @@ const Struktural = () => {
           <div className="container mx-auto px-4 md:px-8 lg:px-12">
             <h2 className="text-4xl font-bold text-center mb-12 text-indigo-900">Struktural OSS Bhakta</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Suspense fallback={<div className="w-full h-64 bg-gray-200 rounded-lg animate-pulse"></div>}>
-                <StrukturalCard
-                  nama="M. Revo Furqoni"
-                  jabatan="Ketua OSIS"
-                  image="/assets/img/struktural/ketos.jpeg"
-                />
-              </Suspense>
+              <StrukturalCard
+                nama="M. Revo Furqoni"
+                jabatan="Ketua OSIS"
+                image="/assets/img/struktural/ketos.jpeg"
+              />
             </div>
             <div className="text-center mt-12">
               <a href="/event" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">

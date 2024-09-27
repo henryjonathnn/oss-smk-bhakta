@@ -16,4 +16,9 @@ class HomeController extends Controller
     {
         return Inertia::render('Home/Struktural');
     }
+
+    public function event()
+    {
+        return Inertia::render('Home/Event');
+    }
 }

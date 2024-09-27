@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = ({ title, subtitle, buttonText, backgroundImage }) => (
   <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url('${backgroundImage}')` }}>
-    <div className="absolute inset-0 bg-black opacity-65"></div>
+    <div className="absolute inset-0 bg-black opacity-50"></div>
     <div className="absolute inset-0 flex items-center justify-center">
       <div className="text-center text-white max-w-4xl px-4">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">{title}</h1>
