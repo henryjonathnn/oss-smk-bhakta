@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, usePage } from '@inertiajs/react';
-import NavItem from '../Components/NavItem';
+import NavItem from '../molecules/NavItem';
 
 export const Navbar = () => {
   const { url } = usePage();

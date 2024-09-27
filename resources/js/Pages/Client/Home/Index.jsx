@@ -1,13 +1,13 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
-import { Navbar } from '../../Layouts/Navbar';
-import { Footer } from '../../Layouts/Footer';
-import Hero from './Home/Hero';
-import AboutSection from './Home/AboutSection';
-import StatisticSection from './Home/StatisticSection';
-import EventSection from './Home/EventSection';
-import FAQSection from './Home/FAQSection';
-import SuggestionBoxSection from './Home/SuggestionBoxSection';
+import { Navbar } from '../../../Components/organism/Navbar';
+import { Footer } from '../../../Components/organism/Footer';
+import Hero from './Hero';
+import AboutSection from './AboutSection';
+import StatisticSection from './StatisticSection';
+import EventSection from './EventSection';
+import FAQSection from './FAQSection';
+import SuggestionBoxSection from './SuggestionBoxSection';
 import { ChevronRight } from 'lucide-react';
 
 const Index = () => {
