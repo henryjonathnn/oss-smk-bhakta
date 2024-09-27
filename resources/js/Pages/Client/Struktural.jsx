@@ -6,7 +6,7 @@ import { Link } from '@inertiajs/inertia-react';
 import { Head } from '@inertiajs/react';
 
 
-const StrukturalCard = lazy(() => import('../../Components/modules/StrukturalCard'));
+const StrukturalCard = lazy(() => import('../../Components/modules/cards/StrukturalCard'));
 
 const anggota = [
   {

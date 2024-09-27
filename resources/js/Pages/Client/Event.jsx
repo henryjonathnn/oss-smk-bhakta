@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import EventCard from '../../Components/modules/EventCard'
+import EventCard from '../../Components/modules/cards/EventCard'
 import { Navbar } from '../../Layouts/Navbar'
-import EventSection from '../../Components/Home/EventSection'
+import EventSection from './Home/EventSection'
 import Pagination from '../../Components/elements/Pagination'
 import { Footer } from '../../Layouts/Footer'
-import Hero from '../../Components/elements/Hero'
+import Hero from './Home/Hero'
 
 const Event = () => {
 

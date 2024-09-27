@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { ChevronRight } from 'lucide-react';
-import EventCard from '../modules/EventCard';
+import EventCard from '../../../Components/modules/cards/EventCard';
 import PropTypes from 'prop-types';
 
 const EventSection = ({ events }) => (

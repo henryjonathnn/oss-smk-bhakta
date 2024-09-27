@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Calendar } from 'lucide-react';
-import Card from '../elements/Card';
+import Card from '../../elements/Card';
 
 const EventCard = ({ title, date, image, className }) => (
   <Card

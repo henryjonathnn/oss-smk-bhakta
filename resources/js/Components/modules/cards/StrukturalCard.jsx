@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card from '../elements/Card';
+import Card from '../../elements/Card';
 
 const StrukturalCard = ({ nama, jabatan, image, className }) => (
   <Card

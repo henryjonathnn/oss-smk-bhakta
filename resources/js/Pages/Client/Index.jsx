@@ -2,12 +2,12 @@ import React from 'react';
 import { Head } from '@inertiajs/react';
 import { Navbar } from '../../Layouts/Navbar';
 import { Footer } from '../../Layouts/Footer';
-import Hero from '../../Components/elements/Hero';
-import AboutSection from '../../Components/Home/AboutSection';
-import StatisticSection from '../../Components/Home/StatisticSection';
-import EventSection from '../../Components/Home/EventSection';
-import FAQSection from '../../Components/Home/FaqSection';
-import SuggestionBoxSection from '../../Components/Home/SuggestionBoxSection';
+import Hero from './Home/Hero';
+import AboutSection from './Home/AboutSection';
+import StatisticSection from './Home/StatisticSection';
+import EventSection from './Home/EventSection';
+import FAQSection from './Home/FAQSection';
+import SuggestionBoxSection from './Home/SuggestionBoxSection';
 import { ChevronRight } from 'lucide-react';
 
 const Index = () => {

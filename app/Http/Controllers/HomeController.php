@@ -9,16 +9,16 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Home/Index');
+        return Inertia::render('Client/Index');
     }
 
     public function struktural() 
     {
-        return Inertia::render('Home/Struktural');
+        return Inertia::render('Client/Struktural');
     }
 
     public function event()
     {
-        return Inertia::render('Home/Event');
+        return Inertia::render('Client/Event');
     }
 }
