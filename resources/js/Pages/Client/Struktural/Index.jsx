@@ -1,7 +1,7 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
 import ClientLayout from '../../../Components/templates/ClientLayouts';
-import StrukturalCard from '../../../Components/molecules/StrukturalCard';
+import { StrukturalCard, CenteredCardContainer } from '../../../Components/molecules/StrukturalCard';
 
 const strukturalData = [
   {
@@ -15,9 +15,9 @@ const strukturalData = [
     image: "/assets/img/struktural/waketos.jpeg"
   },
   {
-    nama: "Mike Johnson",
+    nama: "Marela Tiara Pozak",
     jabatan: "Sekretaris",
-    image: "/assets/img/struktural/mike-johnson.jpg"
+    image: "/assets/img/struktural/sekretaris.jpeg"
   },
   {
     nama: "Emily Brown",
@@ -35,12 +35,14 @@ const StrukturalPage = () => {
         <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Struktural OSIS</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
           {strukturalData.map((anggota, index) => (
-            <StrukturalCard
-              key={index}
-              nama={anggota.nama}
-              jabatan={anggota.jabatan}
-              image={anggota.image}
-            />
+            <CenteredCardContainer>
+              <StrukturalCard
+                key={index}
+                nama={anggota.nama}
+                jabatan={anggota.jabatan}
+                image={anggota.image}
+              />
+            </CenteredCardContainer>
           ))}
         </div>
       </div>

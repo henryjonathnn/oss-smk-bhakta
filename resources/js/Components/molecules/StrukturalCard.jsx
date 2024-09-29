@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 const StrukturalCard = ({ nama, jabatan, image, className }) => (
-  <div className={`${className} flex flex-col items-center w-64 bg-white rounded-lg shadow-md overflow-hidden`}>
+  <div className={`${className} w-64 bg-white rounded-lg shadow-md overflow-hidden`}>
     <div className="w-full h-80 overflow-hidden">
       <img 
         src={image} 
@@ -23,4 +24,11 @@ StrukturalCard.propTypes = {
   className: PropTypes.string,
 };
 
-export default StrukturalCard;
+// Container component to center the cards
+const CenteredCardContainer = ({ children }) => (
+  <div className="flex justify-center items-center flex-wrap gap-8">
+    {children}
+  </div>
+);
+
+export { StrukturalCard, CenteredCardContainer };

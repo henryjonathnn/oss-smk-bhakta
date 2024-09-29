@@ -8,12 +8,19 @@ import EventSection from './EventSection';
 import FAQSection from './FAQSection';
 import SuggestionBoxSection from './SuggestionBoxSection';
 import { ChevronRight } from 'lucide-react';
+import StrukturalSection from './StrukturalSection';
 
 const Index = () => {
   const events = [
     { title: "MPLS Bhakta 2023", date: "15 Juli 2023", image: "/assets/img/event/mpls2023.jpg" },
     { title: "PHBN 2023", date: "31 Agustus 2023", image: "/assets/img/event/phbn2023.jpg" },
     { title: "MOBA 3 2023", date: "19 Desember 2023", image: "/assets/img/event/moba3.jpg" }
+  ];
+
+  const anggota = [
+    { nama: "M. Revo Furqoni", jabatan: "Katua OSIS", image: "/assets/img/struktural/ketos.jpeg" },
+    { nama: "Faza Adhima Putra", jabatan: "Wakil Ketua OSIS", image: "/assets/img/struktural/waketos.jpeg" },
+    { nama: "Marela Tiara Pozak", jabatan: "Sekretaris", image: "/assets/img/struktural/sekretaris.jpeg" }
   ];
 
   const faqs = [
@@ -47,6 +54,12 @@ const Index = () => {
       <div className="text-center mb-20">
         <a href="/event" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">
           Lihat Semua Event <ChevronRight className="w-5 h-5 ml-2" />
+        </a>
+      </div>
+      <StrukturalSection anggota={anggota} />
+      <div className="text-center mb-20">
+        <a href="/struktural" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">
+          Lihat Struktural OSIS <ChevronRight className="w-5 h-5 ml-2" />
         </a>
       </div>
       <FAQSection faqs={faqs} />
