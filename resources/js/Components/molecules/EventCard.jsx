@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Calendar } from 'lucide-react';
-import Card from '../../atoms/Card';
+import Card from '../atoms/Card';
 
 const EventCard = ({ title, date, image, className }) => (
   <Card
@@ -22,8 +22,7 @@ EventCard.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  kelas: PropTypes.string.isRequired,
-
+  className: PropTypes.string,
 };
 
 export default EventCard;

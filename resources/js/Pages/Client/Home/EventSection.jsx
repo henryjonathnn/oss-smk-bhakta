@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
-import { ChevronRight } from 'lucide-react';
-import EventCard from '../../../Components/modules/cards/EventCard';
 import PropTypes from 'prop-types';
+import EventCard from '../../../Components/molecules/EventCard';
 
 const EventSection = ({ events }) => (
   <section className="py-20 bg-gray-50">

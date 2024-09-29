@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Card = ({
   className,
@@ -23,10 +25,12 @@ const Card = ({
     >
       {imageUrl && (
         <div className={`relative ${imgContainerClassName || 'w-full pt-[56.25%]'}`}>
-          <img
+          <LazyLoadImage
             src={imageUrl}
             alt={imageAlt || title}
+            effect="blur"
             className={`absolute top-0 left-0 w-full h-full object-cover ${imgClassName}`}
+            wrapperClassName="absolute top-0 left-0 w-full h-full"
           />
         </div>
       )}
@@ -46,8 +50,8 @@ Card.propTypes = {
   onClick: PropTypes.func,
   imageUrl: PropTypes.string,
   imageAlt: PropTypes.string,
-  imageClassName: PropTypes.string,
-  imageContainerClassName: PropTypes.string,
+  imgClassName: PropTypes.string,
+  imgContainerClassName: PropTypes.string,
   title: PropTypes.node,
   subtitle: PropTypes.node,
   content: PropTypes.node,

@@ -1,11 +1,6 @@
 import React from 'react';
-
-const FAQItem = ({ question, answer }) => (
-  <details className="bg-white rounded-lg shadow-md p-6">
-    <summary className="font-semibold text-lg cursor-pointer">{question}</summary>
-    <p className="mt-4 text-gray-600">{answer}</p>
-  </details>
-);
+import PropTypes from 'prop-types';
+import FAQItem from '../../../Components/molecules/FAQItem';
 
 const FAQSection = ({ faqs }) => (
   <section className="py-20 bg-gray-100">
@@ -19,5 +14,14 @@ const FAQSection = ({ faqs }) => (
     </div>
   </section>
 );
+
+FAQSection.propTypes = {
+  faqs: PropTypes.arrayOf(
+    PropTypes.shape({
+      question: PropTypes.string.isRequired,
+      answer: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default FAQSection;

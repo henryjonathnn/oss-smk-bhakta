@@ -1,8 +1,12 @@
 import React from 'react'
+import { Navbar } from '../../../Components/organism/Navbar'
 
 const Index = () => {
   return (
-    <div>Artikel</div>
+    <>
+    <Navbar />
+    <div>Event</div>
+    </>
   )
 }
 

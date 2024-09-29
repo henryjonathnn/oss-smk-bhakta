@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import Button from '../../../Components/atoms/Button';
 
 const Hero = ({ title, subtitle, buttonText, backgroundImage }) => (
   <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url('${backgroundImage}')` }}>
@@ -7,9 +9,9 @@ const Hero = ({ title, subtitle, buttonText, backgroundImage }) => (
       <div className="text-center text-white max-w-4xl px-4">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">{title}</h1>
         <p className="text-xl md:text-2xl font-medium mb-10">{subtitle}</p>
-        <button className="bg-indigo-950 hover:bg-slate-900 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">
+        <Button className="py-3 px-8 rounded-full transform hover:scale-105 shadow-lg">
           {buttonText}
-        </button>
+        </Button>
       </div>
     </div>
     <div className="absolute -bottom-3 left-0 right-0">
@@ -19,5 +21,12 @@ const Hero = ({ title, subtitle, buttonText, backgroundImage }) => (
     </div>
   </div>
 );
+
+Hero.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  buttonText: PropTypes.string.isRequired,
+  backgroundImage: PropTypes.string.isRequired,
+};
 
 export default Hero;

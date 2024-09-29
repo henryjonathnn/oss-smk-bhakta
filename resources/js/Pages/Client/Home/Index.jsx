@@ -1,7 +1,6 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
-import { Navbar } from '../../../Components/organism/Navbar';
-import { Footer } from '../../../Components/organism/Footer';
+import ClientLayout from '../../../Components/templates/ClientLayouts';
 import Hero from './Hero';
 import AboutSection from './AboutSection';
 import StatisticSection from './StatisticSection';
@@ -33,30 +32,26 @@ const Index = () => {
   ];
 
   return (
-    <>
+    <ClientLayout>
       <Head title="Home" />
-      <div className="bg-gray-50 min-h-screen">
-        <Navbar />
-        <Hero
-          title="Membangun Masa Depan Bersama OSS Bhakta"
-          subtitle="Terampil bersahaja OSS Bhakta jaya!"
-          buttonText="Jelajahi Lebih Lanjut"
-          backgroundImage="/assets/img/hero.jpeg"
-        />
-        <AboutSection />
-        <StatisticSection />
-        <h2 className="text-4xl font-bold text-center mt-20 -mb-10 text-indigo-900">Event Terakhir</h2>
-        <EventSection events={events} />
-        <div className="text-center mb-20">
-          <a href="/event" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">
-            Lihat Semua Event <ChevronRight className="w-5 h-5 ml-2" />
-          </a>
-        </div>
-        <FAQSection faqs={faqs} />
-        <SuggestionBoxSection />
-        <Footer />
+      <Hero
+        title="Membangun Masa Depan Bersama OSS Bhakta"
+        subtitle="Terampil bersahaja OSS Bhakta jaya!"
+        buttonText="Jelajahi Lebih Lanjut"
+        backgroundImage="/assets/img/hero.jpeg"
+      />
+      <AboutSection />
+      <StatisticSection />
+      <h2 className="text-4xl font-bold text-center mt-20 -mb-10 text-indigo-900">Event Terakhir</h2>
+      <EventSection events={events} />
+      <div className="text-center mb-20">
+        <a href="/event" className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-semibold text-lg">
+          Lihat Semua Event <ChevronRight className="w-5 h-5 ml-2" />
+        </a>
       </div>
-    </>
+      <FAQSection faqs={faqs} />
+      <SuggestionBoxSection />
+    </ClientLayout>
   );
 };
 
