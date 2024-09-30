@@ -22,4 +22,14 @@ class HomeController extends Controller
     {
         return Inertia::render('Client/Event/Index');
     }
+
+    public function artikel()
+    {
+        return Inertia::render('Client/Artikel/Index');
+    }
+
+    public function kotaksaran()
+    {
+        return Inertia::render('Client/KotakSaran/Index');
+    }
 }

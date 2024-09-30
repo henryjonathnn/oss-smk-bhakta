@@ -1,8 +1,11 @@
 import React from 'react'
+import ClientLayout from '../../../Components/templates/ClientLayouts'
 
 const Index = () => {
   return (
-    <div>Artikel</div>
+    <ClientLayout>
+      <div>Kotak Saran</div>
+    </ClientLayout>
   )
 }
 
