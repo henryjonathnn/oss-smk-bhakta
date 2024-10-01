@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\AnggotaController;
+use App\Http\Controllers\Admin\AdminHomeController;
+use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Client\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,4 +25,5 @@ Route::get('/kotak-saran', [HomeController::class, 'kotaksaran'])->name('kotaksa
 
 
 // ADMIN
-Route::resource('anggota', AnggotaController::class);
+Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+Route::get('/admin/home', [AdminHomeController::class, 'index'])->name('admin.home');
