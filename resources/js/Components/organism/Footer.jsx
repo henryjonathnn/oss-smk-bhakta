@@ -1,3 +1,4 @@
+import { Facebook, Instagram, Youtube } from 'lucide-react'
 import React from 'react'
 
 export const Footer = () => {
@@ -16,10 +17,16 @@ export const Footer = () => {
                     </div>
                     <div className="w-full md:w-1/3">
                         <h3 className="text-xl font-bold mb-4">Ikuti Kami</h3>
-                        <div className="flex space-x-4">
-                            <a href="#" className="hover:text-blue-400">Instagram</a>
-                            <a href="#" className="hover:text-blue-400">Twitter</a>
-                            <a href="#" className="hover:text-blue-400">Facebook</a>
+                        <div className="flex space-x-5">
+                            <a href="https://www.instagram.com/ossbhakta/" target='_blank' className="hover:text-blue-400">
+                                <Instagram className="w-8 h-8" />
+                            </a>
+                            <a href="https://www.facebook.com/smkbhakta/" target='_blank' className="hover:text-blue-400">
+                                <Facebook className="w-8 h-8" />
+                            </a>
+                            <a href="https://www.youtube.com/@ossbhakta67/videos" target='_blank' className="hover:text-blue-400">
+                                <Youtube className="w-8 h-8"/>
+                            </a>
                         </div>
                     </div>
                 </div>

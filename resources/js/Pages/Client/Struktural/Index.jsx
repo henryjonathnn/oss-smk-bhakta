@@ -39,7 +39,7 @@ const StrukturalPage = () => {
         backgroundImage="/assets/img/event/moba3.jpg"
       />
       <div className="container mx-auto px-4 py-12 mb-10 mt-10">
-        <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Struktural OSIS</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Struktural Anggota Inti OSIS</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
           {strukturalData.map((anggota, index) => (
             <CenteredCardContainer>

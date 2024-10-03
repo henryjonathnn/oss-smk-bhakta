@@ -11,6 +11,12 @@ const events = [
   { title: "MOBA 3 2023", date: "19 Desember 2023", image: "/assets/img/event/moba3.jpg" }
 ];
 
+const soonevents = [
+  { title: "MPLS Bhakta 2025", date: "15 Juli 2025", image: "/assets/img/event/mpls2023.jpg" },
+  { title: "PHBN 2025", date: "31 Agustus 2025", image: "/assets/img/event/phbn2023.jpg" },
+  { title: "MOBA 4 2024", date: "19 Desember 2024", image: "/assets/img/event/moba3.jpg" }
+];
+
 const EventPage = () => {
   return (
     <ClientLayout>
@@ -22,7 +28,18 @@ const EventPage = () => {
         backgroundImage="/assets/img/event/moba3.jpg"
       />
       <div className="container mx-auto px-4 md:px-8 lg:px-12 mb-20 mt-20">
-        <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Struktural OSIS</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Event Mendatang</h1>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+          {soonevents.map((event, index) => (
+            <EventCard className="transform transition duration-500 hover:scale-105 shadow-lg"
+              key={index}
+              title={event.title}
+              date={event.date}
+              image={event.image}
+            />
+          ))}
+        </div>
+        <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">Event Terakhir</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {events.map((event, index) => (
             <EventCard className="transform transition duration-500 hover:scale-105 shadow-lg"
