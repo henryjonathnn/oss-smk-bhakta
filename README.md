@@ -24,23 +24,23 @@
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="20" height="20" style="margin-right: 10px;">
-  <span>Laravel - PHP framework untuk backend</span>
+  <span>Laravel</span>
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://avatars.githubusercontent.com/u/47703742?s=200&v=4" alt="Inertia" width="20" height="20" style="margin-right: 10px;">
-  <span>Inertia.js - Untuk menghubungkan backend dengan frontend</span>
+  <span>Inertia JS</span>
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="20" height="20" style="margin-right: 10px;">
-  <span>React - Library JavaScript untuk membangun antarmuka pengguna</span>
+  <span>React JS</span>
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://vitejs.dev/logo.svg" alt="Vite" width="20" height="20" style="margin-right: 10px;">
-  <span>Vite - Build tool dan development server</span>
+  <span>Vite</span>
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" width="20" height="20" style="margin-right: 10px;">
-  <span>TailwindCSS - Framework CSS untuk desain yang cepat dan fleksibel</span>
+  <span>TailwindCSS</span>
 </div>
 
 <div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
