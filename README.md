@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(244, 78, 59, 0.5));">
   <img src="https://avatars.githubusercontent.com/u/47703742?s=200&v=4" alt="Inertia" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(71, 96, 196, 0.5));">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(97, 219, 251, 0.5));">
