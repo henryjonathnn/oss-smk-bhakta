@@ -23,6 +23,7 @@
 </div>
 
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Teknologi yang digunakan</h2>
   <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="20" height="20" style="margin-right: 10px;">
   <span>Laravel</span>
 </div>
@@ -46,30 +47,19 @@
 <div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
   <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Cara Menggunakan</h2>
   <p style="color: #a0aec0; font-family: 'Arial', sans-serif;">
-    Berikan instruksi singkat tentang cara menginstal dan menjalankan proyek Anda. Misalnya:
+    Lakukan langkah-langkah berikut untuk cloning project saya:
   </p>
   <pre style="background-color: #1a202c; border-radius: 4px; padding: 10px; color: #a0aec0;">
-    git clone https://github.com/username/repo.git
-    cd repo
+    git clone https://github.com/henryjonathnn/oss-smk-bhakta.git
+    cd oss-smk-bhakta
     composer install
     npm install
     cp .env.example .env
     php artisan key:generate
     php artisan migrate
+    php artisan serve
     npm run dev
   </pre>
-</div>
-
-<div align="center" style="margin-top: 40px;">
-  <a href="https://instagram.com/yourusername" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" width="30" height="30" style="filter: invert(100%);">
-  </a>
-  <a href="https://youtube.com/yourchannel" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube" width="30" height="30" style="filter: invert(100%);">
-  </a>
-  <a href="https://yourportfolio.com" style="text-decoration: none; margin: 0 10px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Book-icon-bible.png" alt="Portfolio" width="30" height="30" style="filter: invert(100%);">
-  </a>
 </div>
 
 <p align="center" style="color: #a0aec0; font-family: 'Arial', sans-serif; margin-top: 20px;">
