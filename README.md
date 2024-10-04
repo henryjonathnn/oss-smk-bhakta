@@ -1,10 +1,3 @@
-<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(244, 78, 59, 0.5));">
-  <img src="https://avatars.githubusercontent.com/u/47703742?s=200&v=4" alt="Inertia" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(71, 96, 196, 0.5));">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(97, 219, 251, 0.5));">
-  <img src="https://vitejs.dev/logo.svg" alt="Vite" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(185, 119, 238, 0.5));">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(56, 189, 248, 0.5));">
-</div>
 
 <h1 align="center" style="color: #ffffff; font-family: 'Arial', sans-serif;">Project Website OSIS Bhakti Wiyata Kediri</h1>
 
@@ -29,15 +22,25 @@
   </ul>
 </div>
 
-<div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
-  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Teknologi yang Digunakan</h2>
-  <ul style="color: #a0aec0; font-family: 'Arial', sans-serif;">
-    <li>Laravel</li>
-    <li>Inertia.js</li>
-    <li>React</li>
-    <li>Vite</li>
-    <li>TailwindCSS</li>
-  </ul>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="20" height="20" style="margin-right: 10px;">
+  <span>Laravel - PHP framework untuk backend</span>
+</div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://avatars.githubusercontent.com/u/47703742?s=200&v=4" alt="Inertia" width="20" height="20" style="margin-right: 10px;">
+  <span>Inertia.js - Untuk menghubungkan backend dengan frontend</span>
+</div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="20" height="20" style="margin-right: 10px;">
+  <span>React - Library JavaScript untuk membangun antarmuka pengguna</span>
+</div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://vitejs.dev/logo.svg" alt="Vite" width="20" height="20" style="margin-right: 10px;">
+  <span>Vite - Build tool dan development server</span>
+</div>
+<div style="display: flex; align-items: center; margin-bottom: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" width="20" height="20" style="margin-right: 10px;">
+  <span>TailwindCSS - Framework CSS untuk desain yang cepat dan fleksibel</span>
 </div>
 
 <div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
