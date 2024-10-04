@@ -10,7 +10,7 @@
 <div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
   <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Fitur</h2>
   <ul style="color: #a0aec0; font-family: 'Arial', sans-serif;">
-    <li>Fitur Home: Fitur ini berisi ringkasan informasi tentang OSIS SMK Bhakti Wiyata Kediri./li>
+    <li>Fitur Home: Fitur ini berisi ringkasan informasi tentang OSIS SMK Bhakti Wiyata Kediri.</li>
     <li>Fitur Struktural: Fitur ini berisi informasi lengkap mengenai struktural anggota OSIS SMK Bhakti Wiyata Kediri.</li>
     <li>Fitur Event: Fitur ini berisi informasi lengkap mengenai agenda event yang akan digelar maupun yang telah digelar.</li>
     <li>Fitur Artikel: Fitur ini berisi kumpulan artikel-artikel yang berisi materi singkat yang menarik.</li>
