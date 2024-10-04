@@ -1,66 +1,74 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(244, 78, 59, 0.5));">
+  <img src="https://inertiajs.com/previews/pingcrm.png" alt="Inertia" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(71, 96, 196, 0.5));">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(97, 219, 251, 0.5));">
+  <img src="https://vitejs.dev/logo.svg" alt="Vite" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(185, 119, 238, 0.5));">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="TailwindCSS" width="80" height="80" style="filter: drop-shadow(0 0 0.75rem rgba(56, 189, 248, 0.5));">
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h1 align="center" style="color: #ffffff; font-family: 'Arial', sans-serif;">Project Website OSIS Bhakti Wiyata Kediri</h1>
+
+<p align="center" style="color: #a0aec0; font-family: 'Arial', sans-serif; font-size: 18px;">
+  Sebuah aplikasi web untuk OSIS Bhakti Wiyata Kediri yang dibangun untuk memudahkan para anggota OSIS dalam menyampaikan informasi & mendokumentasi setiap kegiatan yang digelar
 </p>
 
-## About Laravel
+<div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Tentang Proyek</h2>
+  <p style="color: #a0aec0; font-family: 'Arial', sans-serif;">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, vitae? Magnam repellat, sequi recusandae eius a
+    voluptate!
+  </p>
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Fitur Utama</h2>
+  <ul style="color: #a0aec0; font-family: 'Arial', sans-serif;">
+    <li>Fitur 1: Deskripsi singkat</li>
+    <li>Fitur 2: Deskripsi singkat</li>
+    <li>Fitur 3: Deskripsi singkat</li>
+  </ul>
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Teknologi yang Digunakan</h2>
+  <ul style="color: #a0aec0; font-family: 'Arial', sans-serif;">
+    <li>Laravel</li>
+    <li>Inertia.js</li>
+    <li>React</li>
+    <li>Vite</li>
+    <li>TailwindCSS</li>
+  </ul>
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<div style="background-color: #2d3748; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h2 style="color: #ffffff; font-family: 'Arial', sans-serif;">Cara Menggunakan</h2>
+  <p style="color: #a0aec0; font-family: 'Arial', sans-serif;">
+    Berikan instruksi singkat tentang cara menginstal dan menjalankan proyek Anda. Misalnya:
+  </p>
+  <pre style="background-color: #1a202c; border-radius: 4px; padding: 10px; color: #a0aec0;">
+    git clone https://github.com/username/repo.git
+    cd repo
+    composer install
+    npm install
+    cp .env.example .env
+    php artisan key:generate
+    php artisan migrate
+    npm run dev
+  </pre>
+</div>
 
-## Learning Laravel
+<div align="center" style="margin-top: 40px;">
+  <a href="https://instagram.com/yourusername" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" width="30" height="30" style="filter: invert(100%);">
+  </a>
+  <a href="https://youtube.com/yourchannel" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube" width="30" height="30" style="filter: invert(100%);">
+  </a>
+  <a href="https://yourportfolio.com" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Book-icon-bible.png" alt="Portfolio" width="30" height="30" style="filter: invert(100%);">
+  </a>
+</div>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p align="center" style="color: #a0aec0; font-family: 'Arial', sans-serif; margin-top: 20px;">
+  © 2024 henryjonathnn. All rights reserved.
+</p>
