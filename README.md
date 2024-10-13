@@ -1,6 +1,6 @@
 
 
-# Project Website OSIS Bhakti Wiyata Kediri
+# Project Official Website OSIS Bhakti Wiyata Kediri
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/henryjonathnn/oss-smk-bhakta)
 ![GitHub issues](https://img.shields.io/github/issues/henryjonathnn/oss-smk-bhakta)
